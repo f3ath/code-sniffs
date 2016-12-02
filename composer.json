@@ -1,0 +1,20 @@
+{
+  "name": "f3ath/code-sniffs",
+  "description": "Sniffs for PHP_CodeSniffer v3",
+  "type": "library",
+  "require": {
+    "squizlabs/php_codesniffer": "^3.0.0RC2"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexey Karapetov",
+      "email": "karapetov@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "F3\\Sniffs\\": "src/"
+    }
+  }
+}
